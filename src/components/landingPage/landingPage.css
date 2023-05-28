@@ -1,0 +1,64 @@
+
+
+.courseIconAndTitle {
+    display: inline-block;
+    margin: 50px;
+    /* height: 400px; */
+}
+
+.courseImage{
+    display: block;
+    margin: auto;
+   
+}
+
+h3 {
+    text-align: center;
+    width:300px;
+    font-size: 2vh;
+    font-family: "Quicksand", sans-serif;
+    color: #eb8381;
+
+}
+
+.courseDescription {
+    text-align: center;
+    font-size: 3vh;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    /* color: #eb8381; */
+    margin: 100px auto;
+    margin-bottom: 50px;
+
+}
+
+.navHeader {
+    font-size: 6vh;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: #f8f6f0;
+    /* font-weight: bold; */
+}
+
+.courseGoals {
+    margin: 100px auto;
+    text-align: center;
+    background-color: #f8f6f0;
+    padding: 10px;
+}
+
+.courseGoalsHeader {
+    text-align: center;
+    font-size: 5vh;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 100;
+    color: #eb3535;
+  
+}
+
+.courseGoalsDescription {
+    font-size: 3vh;
+    color: #eb3535;
+   
+    font-family: "Quicksand", sans-serif;
+}

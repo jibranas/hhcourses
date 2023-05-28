@@ -1,0 +1,13 @@
+.SampleButton {
+    background-color:purple;
+}
+
+
+
+
+
+@media (min-width: 550px) {
+    .new{
+        background-color: red;
+    }
+}

@@ -1,0 +1,123 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.courseContent {
+  width: 85%;
+  margin: 100px auto;
+  background: #f8f6f0;
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+.courseContentHeader {
+  /* margin-top: 50px; */
+  padding: 15px 0px 15px 25px;
+  /* font-size: 20px; */
+  font-size: 3.5vh;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sidenavContentHeaderMainMenuCC {
+  margin-top: 5px;
+  padding: 15px 0px 15px 25px;
+  /* font-size: 20px; */
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+.sidenavContentCC {
+  padding: 15px 0px 15px 50px;
+  cursor: pointer;
+  font-size: 2.3vh;
+  display: flex;
+  justify-content: space-between;
+  /* width: 50%; */
+}
+.sidenavContentCC:hover {
+  background-color: #f2b1ae;
+}
+
+.sidenavRowCC {
+  display: flex;
+  /* width: 100%; */
+  /* font-size: 1.8vh; */
+  font-size: 2vh;
+  justify-content: space-between;
+  padding: 15px 25px 15px 90px;
+  cursor: pointer;
+}
+.sidenavRowCC:hover {
+  background-color: #f2b1ae;
+}
+.sidenavRowCC i {
+  color: #8e9090;
+}
+.sidenavRowCC:hover i {
+  color: #111111;
+}
+.sidenavRowTextCC{
+  font-size: 2vh;
+}
+
+
+.sidenavRow-submenu  {
+  display: block;
+  
+}
+
+.toggle-btn {
+  transition: transform 0.5s;
+}
+
+.toggle-btn-down {
+  transition: transform 0.5s;
+  transform: rotate(180deg);
+}
+
+
+
+.sidenavRow-submenu-notOpen{
+  display: none;
+}
+
+.courseStatBanner {
+  /* display: inline; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: space-between;
+  
+}
+
+
+.courseStat {
+  /* display: inline; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  padding: 30px;
+  width: 300px;
+  /* height: 400px; */
+}
+
+.courseStatNumber {
+  font-size: 7vh;
+  text-align: center;
+  color: #eb3535;
+}
+@media (max-width: 1000px) {
+  .courseStatNumber{
+    font-size: 4vh;
+  }
+}
+
+.courseStatDescription {
+  font-size: 3vh;
+  /* width: 300px; */
+  text-align: center;
+}
